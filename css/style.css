@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.main{
+    background: peachpuff ;
+    width: 100%;
+    height: 100%;
+    display: table-row-group;
+}
+.upper{
+    display: flex;
+}
+.logo h1{
+    flex: 1;
+    margin-left: 40px;
+}
+
+.options {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+    color: red;
+}
+.info{
+    background: peachpuff;
+    height: vh;
+    justify-content: left;
+    display: flex;
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: table-row-group;
+}
+
+
+.text p {
+    display: flex;
+     font-weight: bold;
+     letter-spacing: 1px;
+     line-height: 2;
+}
+.image img{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 60%; 
+    width: 60%;
+    
+}
+.image h2{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+
+.icons{
+    margin-top: 200px;
+    display: flex;
+}
+.github img, .linkedin img{
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: center;
+    color: gray;
+    transition: 0.4s;
+}
+.github{
+    padding-right: 50px;
+}
+.icons a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.icons a:hover{
+    color: red;
+}

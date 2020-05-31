@@ -1,0 +1,10 @@
+.cases{
+    text-align: center;
+    background: gray;
+    border: 2px black solid;
+}
+.totalCases , .closedCases{
+    border: 2px black solid;
+    margin: 10px 500px 10px 500px;
+}
+

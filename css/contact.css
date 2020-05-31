@@ -1,0 +1,19 @@
+.email{
+    display: flex;
+     flex: 1;
+     border: 1px black solid;
+    margin-left: 500px;
+    margin-right: 500px;
+     justify-content: center;
+     background: peachpuff;
+}
+.email img{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+   
+}
+.email p{
+    justify-content: center;
+}
